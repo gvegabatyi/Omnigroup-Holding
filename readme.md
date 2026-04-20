@@ -148,3 +148,38 @@ Implementación de los controles específicos del Responsable del Tratamiento pa
 - **Saneamiento de Base de Datos:** Eliminar la persistencia del identificador único y establecer seudonimización.
 - **Generación de DPIA:** Elaborar las evaluaciones de impacto definitivas.
 - **Blindaje Jurídico:** Crear los manuales y directrices que acrediten que el Directorio ha tomado medidas razonables de control para mitigar la responsabilidad penal y administrativa.
+# Estructura Organizativa y Modelo de Gobernanza - OmniGroup
+
+Para garantizar la **Responsabilidad Proactiva (Accountability)** y la segregación de funciones exigida por las normas **ISO 27001** (SGSI) e **ISO 27701** (SGPI), el Holding OmniGroup opera bajo una estructura jerárquica simétrica. Este diseño asegura que cada unidad de negocio cuente con una cadena de mando clara para la gestión de riesgos y protección de datos.
+
+## 1. Organigrama Funcional del Holding
+
+```mermaid
+graph TD
+    %% Centro de Mando
+    Holding((Holding OmniGroup))
+
+    %% Nivel Directivo (Representación)
+    Holding --- D1[Director OmniSalud]
+    Holding --- D2[Director OmniBank]
+    Holding --- D3[Director OmniRobotics]
+    Holding --- D4[Director OmniRetail]
+
+    %% Nivel Administrativo (Gestión)
+    D1 --> A1[Administrador de Unidad]
+    D2 --> A2[Administrador de Unidad]
+    D3 --> A3[Administrador de Unidad]
+    D4 --> A4[Administrador de Unidad]
+
+    %% Nivel Operativo (Ejecución)
+    A1 --> E1[4 Empleados Operativos]
+    A2 --> E2[4 Empleados Operativos]
+    A3 --> E3[4 Empleados Operativos]
+    A4 --> E4[4 Empleados Operativos]
+
+    %% Estilos Profesionales
+    style Holding fill:#1a1a1a,stroke:#333,stroke-width:2px,color:#fff
+    style D1 fill:#f5f5f5,stroke:#333,stroke-width:1px
+    style D2 fill:#f5f5f5,stroke:#333,stroke-width:1px
+    style D3 fill:#f5f5f5,stroke:#333,stroke-width:1px
+    style D4 fill:#f5f5f5,stroke:#333,stroke-width:1px
