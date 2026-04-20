@@ -1,74 +1,30 @@
-Conclusión de Auditoría y Plan de Mejora Continua: OmniSalud
-Diagnóstico Final, Proyección y Estrategia de Certificación
-Unidad de Negocio: OmniSalud (Servicios Clínicos)
+# Informe de Conclusión y Diagnóstico Post-Intervención: OmniSalud
+## Resumen de Gestión de Riesgos, Métricas y Plan de Certificación APDP
 
-Responsable: Gonzalo Vega Batyi, Abogado / DPO
+**Unidad de Negocio:** OmniSalud (Servicios Clínicos y Telemedicina)  
+**Consultor Líder:** Gonzalo Vega Batyi, Abogado / DPO  
+**Marco de Referencia:** ISO 31000:2018 | ISO 27701 (SGPI)  
+**Fecha de Cierre:** Abril 2026  
+**Próxima Revisión:** Octubre 2026 (Control Semestral de Métricas)
 
-Periodo de Auditoría: Abril 2026
+---
 
-Próxima Revisión: Octubre 2026 (Ciclo Semestral)
+## 1. Diagnóstico de Cierre y Resumen Ejecutivo
 
-1. Diagnóstico Resumen y Situación de Cierre
-Tras la intervención realizada bajo los estándares ISO 31000 y 27701, se ha transformado una unidad con riesgo crítico en un entorno controlado normativamente.
+Tras completar el ciclo de auditoría bajo la metodología **ISO 31000**, se ha transformado el escenario de **Riesgo Extremo** detectado en el diagnóstico inicial (contaminación de datos de 404 ciudadanos) en un **Escenario de Riesgo Controlado**. La unidad ahora cuenta con bases legales sólidas y una estructura organizativa que permite la trazabilidad de cada dato sensible, mitigando la exposición ante la Ley 21.719.
 
-Estado Inicial (Diagnóstico): Vulneración sistémica de 404 ciudadanos, contaminación cruzada de datos sensibles con filiales comerciales y ausencia de protocolos de acceso.
+### 1.1 Visualización de Mitigación del Riesgo
 
-Estado Actual (Cierre): Implementación de aislamiento lógico de bases de datos, adopción de manuales operativos por el Administrador y regularización de la base legal del tratamiento.
+A continuación, se representa la reducción de los niveles de exposición tras la implementación de los controles normativos y organizativos:
 
-1.1 Visualización de la Reducción de Riesgo (KPI de Cumplimiento)
-Fragmento de código
+```mermaid
 radar-chart
-    title Comparativa de Riesgo: Inicial vs. Actual
-    labels Licitud, Confidencialidad, Integridad, Accountability, Seguridad Técnica
+    title Comparativa de Riesgo: Estado Inicial vs. Post-Controles
+    labels Licitud (Ley 21.719), Confidencialidad, Integridad, Accountability, Seguridad (Ley 21.663)
     data
       label: Riesgo Inicial (Pre-Auditoría)
-      values: 5, 5, 4, 5, 5
+      values: 5, 5, 4, 5, 4
     data
       label: Riesgo Residual (Post-Controles)
-      values: 2, 1, 1, 1, 2
-Escala: 1 (Bajo) a 5 (Extremo)
-
-2. Resumen de Medidas Implementadas
-Se confirman las siguientes barreras de defensa jurídica y técnica:
-
-Gobernanza Administrativa: Manual de Procedimientos para el Administrador con foco en el control de acceso a datos clínicos.
-
-Seguridad Contractual: Anexo de Secreto Profesional para el Cuerpo Operativo (4 empleados).
-
-Arquitectura de Privacidad: Orden de cifrado AES-256 y protocolos de tokenización para envíos al Holding.
-
-3. Proyección de Mejora y Métricas de Desempeño (6 meses)
-De acuerdo con la ISO 31000 (Monitoreo y Revisión), se establece un periodo de observación de 180 días para validar la eficacia de los controles.
-
-3.1 Métricas de Seguimiento (KPIs)
-Tasa de Adopción Normativa: % de empleados que han completado la capacitación en el Manual de Procedimientos (Meta: 100%).
-
-Eficacia de Control de Acceso: Número de accesos no autorizados detectados en logs quincenales (Meta: 0).
-
-Tiempo de Respuesta ante Incidentes: Capacidad de detección y reporte en menos de 4 horas (Meta: < 4h).
-
-3.2 Hito de Revisión Semestral (Octubre 2026)
-Se realizará una Auditoría de Control para:
-
-Analizar métricas de cumplimiento acumuladas.
-
-Realizar ajustes dinámicos en los manuales si la naturaleza del servicio de telemedicina cambia.
-
-Verificar la integridad del cifrado de datos.
-
-4. Estrategia de Certificación ante la APDP
-Como medida de mitigación de riesgo empresarial, el Holding iniciará el proceso de certificación del modelo de prevención de infracciones de OmniSalud ante la Agencia de Protección de Datos Personales (APDP).
-
-Objetivo: Obtener el sello de cumplimiento normativo que actúe como atenuante calificado en caso de futuros incidentes.
-
-Beneficio Legal: La certificación permite rebajar significativamente las multas (de hasta 20.000 UTM) al acreditar que la empresa ha implementado un sistema de gestión de riesgos serio, auditable y certificado por terceros (ISO 27701).
-
-Acción: Preparación del expediente de "Modelo de Prevención de Delitos de Datos" basado en la documentación generada en este repositorio.
-
-5. Dictamen Final de OmniSalud
-Se da por concluido el ciclo de auditoría para esta unidad. La empresa ha pasado de una exposición legal inaceptable a un estándar de cumplimiento alineado con las mejores prácticas internacionales.
-
-Certificación de Auditoría Interna:
-ID_CERT: OMNI-SALUD-2026-001
-
-Estado: CUMPLIMIENTO VERIFICADO
+      values: 1, 2, 1, 1, 2
+(Escala de Evaluación: 1: Bajo - 5: Extremo)2. Matriz de Medidas ImplementadasCategoríaMedida de ControlObjetivo NormativoGobernanzaManual de Procedimientos para el AdministradorEstablecer responsabilidad proactiva (Accountability).PrivacidadAislamiento Lógico y TokenizaciónGarantizar el Principio de Finalidad y Limitación (Art. 9).SeguridadCifrado AES-256 en Reposo (Datos Sensibles)Proteger la infraestructura crítica de salud (Ley 21.663).ContractualAnexo de Secreto Profesional (Cuerpo Operativo)Blindaje legal ante fugas de información interna.3. Proyección de Mejora y Métricas de Cumplimiento (6 meses)La gestión de riesgos es un proceso dinámico. Se establece un periodo de observación de 180 días para analizar la eficacia de los controles mediante los siguientes indicadores clave de desempeño (KPIs):3.1 Indicadores Clave de DesempeñoNivel de Adopción (NA): % de cumplimiento de las tareas del Manual de Procedimientos por parte del Administrador. (Meta: >95%).Integridad del Dato (ID): Número de incidencias por "Contaminación Cruzada" detectadas en auditorías aleatorias. (Meta: 0).Cumplimiento Operativo (CO): % de empleados capacitados y certificados en el nuevo protocolo de reserva legal. (Meta: 100%).3.2 Revisión y Ajuste (Octubre 2026)Se realizará una revisión técnica para analizar las métricas acumuladas y realizar ajustes en los manuales de procedimiento, asegurando que el modelo de prevención siga siendo realista y efectivo frente a la evolución tecnológica del holding.4. Estrategia de Certificación ante la APDPComo mecanismo de blindaje jurídico superior, se iniciará el proceso de Certificación del Modelo de Prevención de Infracciones ante la Agencia de Protección de Datos Personales (APDP).Beneficios Estratégicos:Atenuante Calificado: La certificación permite rebajar sustancialmente las multas potenciales (de hasta 20.000 UTM) al acreditar la implementación de un sistema de gestión de riesgos serio y auditable.Reputación Corporativa: Posiciona a OmniSalud como líder en cumplimiento normativo y ética de datos en el sector salud.Seguridad Jurídica: Valida externamente que los controles implementados cumplen con el estándar de "Debida Diligencia" exigido por la normativa chilena.5. Conclusión FinalLa intervención en OmniSalud concluye con un dictamen de CUMPLIMIENTO VERIFICADO. Se ha establecido una estructura de control escalable que permite proyectar un crecimiento seguro y alineado con los estándares internacionales de privacidad.Próximo Hito: Apertura de auditoría para la unidad OmniBank.
