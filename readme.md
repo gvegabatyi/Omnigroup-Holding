@@ -1,6 +1,7 @@
 # ⚠️ AVISO LEGAL Y LIMITACIÓN DE RESPONSABILIDAD
 
 OmniGroup es un holding empresarial ficticio CHILENO, creado exclusivamente con fines académicos y de laboratorio profesional. El contenido, las estructuras corporativas, los datasets y las situaciones de riesgo presentadas en este repositorio son simulaciones diseñadas para la demostración práctica de modelos de cumplimiento (Compliance) y protección de datos.
+Este laboratorio busca ilustar situaciones complejas que son necesarias de abordar, por cierto, de forma colectiva en una organización con equipos multidiciplinarios con visión de mejora continua.
 
 Este entorno funciona como un "Sandbox de Cumplimiento" para la implementación de las Leyes 21.719 y 21.663 en Chile, y no guarda relación alguna con empresas, personas naturales o datos reales existentes.
 # 🛡️ OmniGroup Compliance Lab: Gestión de Crisis y Riesgo Normativo
