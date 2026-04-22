@@ -1,40 +1,25 @@
-# OmniGroup Compliance Lab: Sandbox de Riesgo Normativo (Chile)
-
-Este repositorio es un entorno de simulación profesional diseñado para la implementación práctica de modelos de **Compliance, Protección de Datos y Ciberseguridad** bajo el nuevo marco regulatorio chileno.
-
-> **Aviso Académico:** OmniGroup es un holding ficticio creado para demostrar capacidades técnicas en la gestión de crisis normativas. No contiene datos reales.
+# 🏛️ Holding OmniGroup: Compliance & Risk Lab
+> **Entorno de Simulación Legal y Técnica (Ley 21.719 & 21.663)**
 
 ---
 
-## El Desafío: Gobernanza en un Holding Multi-Sector
-OmniGroup representa la complejidad de los grupos empresariales modernos en Chile, donde convergen:
-* **OmniSalud:** Datos sensibles y telemedicina.
-* **OmniBank:** Ciberseguridad financiera y activos críticos.
-* **OmniRobotics:** Inteligencia Artificial y biometría (ISO 42001).
-* **OmniRetail:** Perfilamiento y decisiones automatizadas.
+## 📊 Panel de Control de Auditoría
+*Haz clic en cada sección para desplegar el análisis técnico profundo.*
 
-## Diagnóstico de Crisis (Ley 21.719 & 21.663)
-El proyecto aborda un escenario de **"Contaminación Cruzada de Datos"** y vulnerabilidades críticas que exponen al Directorio a multas de hasta **20.000 UTM**.
-
----
-
-## 📂 Documentación del Proyecto
-
-### 1. [Inventario y Caracterización de Activos](./activos-datos.md)
-Análisis forense de los datasets de las cuatro filiales, identificando campos críticos y flujos transfronterizos.
-
-### 2. [Plan de Auditoría de Gobernanza](./plan-auditoria.md)
-Metodología basada en **ISO 31000, 27001 y 27701** para el saneamiento de la base de datos y la implementación de Accountability.
-
-### 3. [Estructura Organizativa y Modelo de Mando](./estructura-gobernanza.md)
-Diseño de la segregación de funciones y cadena de responsabilidad proactiva para el cumplimiento normativo.
+| 📂 Sección de Auditoría | 📋 Descripción del Trabajo | ⚖️ Marco Legal |
+| :--- | :--- | :--- |
+| [**1. Activos de Datos**](./activos-datos.md) | Inventario, criticidad y flujos transfronterizos. | Ley 21.719 |
+| [**2. OmniSalud (Deep Dive)**](./omnisalud.md) | Análisis de datos sensibles y riesgos médicos. | Ley 21.719 / ISO 27701 |
+| [**3. OmniBank (Ciberseguridad)**](./analisis-riesgo.md) | Activos críticos y riesgo transaccional. | Ley 21.663 / ISO 27001 |
+| [**4. Estructura de Mando**](./estructura-gobernanza.md) | Organigrama y segregación de funciones DPO. | Accountability |
 
 ---
 
-## Sobre el Autor
-**Gonzalo Vega Batyi.**
-Abogado. Compliance, Riesgo y Ciberseguridad. Especializado en  IA, Proteccion de datos, Ciberseguridad y Tecnologías Emergentes.
-* [Inventario de Activos](./`activos-datos.md`)
-* [Informe OmniSalud](./`omnisalud.md`)
-* [Plan de Auditoría](./`plan-auditoria.md`)
-[LinkedIn Profile](https://www.linkedin.com/in/gvegabatyi)
+## 🛠️ Evidencia Técnica (Datasets)
+Para una revisión forense de los datos utilizados en este laboratorio:
+* 📥 [Dataset OmniSalud](./omnisalud_clientes.csv)
+* 📥 [Dataset OmniBank](./omnibank_clientes.csv)
+* 📊 [Matriz de Riesgo 5x5](./matriz_riesgo_omnibank.png)
+
+---
+**Gonzalo Vega Batyi** *Abogado Experto en Ciberseguridad y Protección de Datos* [LinkedIn Profile](https://www.linkedin.com/in/gvegabatyi)
