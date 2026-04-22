@@ -64,8 +64,6 @@ Como mecanismo de blindaje jurídico superior, se iniciará el proceso de **Cert
 
 ---
 
-
-## Anexo de Conclusiones: Pilares de Ciberseguridad (Ley 21.663)
 ## Resiliencia Técnica y Protección de Infraestructura Crítica de Salud
 
 Este apartado consolida el diagnóstico de seguridad lógica y las garantías de integridad implementadas para blindar la unidad frente a incidentes que puedan comprometer la disponibilidad de los servicios de salud y la confidencialidad de la información.
