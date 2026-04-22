@@ -10,7 +10,7 @@
 ---
 
 > **Nota de Confidencialidad:** Este documento forma parte del repositorio de cumplimiento normativo del Holding OmniGroup. Su contenido detalla la Fase 1 del proceso de gestión de riesgos según el estándar internacional ISO 31000.
-
+Omnisalud ha sido designado como Operador de Importancia Vital (OIV) por la Agencia Nacional de Ciberseguridad (ANCI).
 ---
 
 ## 1. Alcance y Contexto Organizacional (ISO 31000: 6.3)
