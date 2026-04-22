@@ -19,6 +19,44 @@ Bajo los criterios de la ISO 31000, evaluamos el **Riesgo Inherente** (antes de 
 
 * **Probabilidad (P):** **5 (Casi Seguro)** - La interconexión técnica actual es un puente permanente de datos entre filiales.
 * **Impacto (I):** **5 (Catastrófico)** - La calificación de OIV implica que una brecha escala a nivel de seguridad nacional y pérdida de licencia bancaria.
+import matplotlib.pyplot as plt
+import numpy as np
+from matplotlib.colors import ListedColormap
+from matplotlib.lines import Line2D
+
+# Configuración de la Matriz 5x5
+n = 5
+cmap = ListedColormap(['#99ff99', '#ffff99', '#ffcc99', '#ff9999', '#ff3333'])
+
+## Definición lógica de niveles de riesgo (Probabilidad x Impacto)
+risk_colors = np.zeros((n, n))
+for p in range(n):
+    for i in range(n):
+        score = (p + 1) * (i + 1)
+        if score <= 4: risk_colors[p, i] = 1   # Bajo
+        elif score <= 9: risk_colors[p, i] = 2 # Medio
+        elif score <= 15: risk_colors[p, i] = 3 # Alto
+        else: risk_colors[p, i] = 4             # Extremo (OIV)
+
+fig, ax = plt.subplots(figsize=(8, 6))
+ax.imshow(risk_colors, origin='lower', cmap=cmap, extent=[0.5, 5.5, 0.5, 5.5])
+
+# Marcado del Riesgo Inherente detectado para OmniBank (P=5, I=5)
+ax.scatter(5, 5, color='black', s=200, marker='X', label='OmniBank OIV')
+ax.annotate(' RIESGO OIV\n EXTREMO (25)', (5, 5), xytext=(3.5, 4.5),
+             arrowprops=dict(facecolor='black', shrink=0.05),
+             fontsize=10, fontweight='bold', bbox=dict(boxstyle="round,pad=0.3", fc="white", ec="black"))
+
+# Etiquetas y Título
+ax.set_xticks(range(1, 6))
+ax.set_yticks(range(1, 6))
+ax.set_xlabel('Impacto (Consecuencia)', fontweight='bold')
+ax.set_ylabel('Probabilidad (Frecuencia)', fontweight='bold')
+ax.set_title('Matriz de Riesgo ISO 31000 - OmniBank (OIV)', fontsize=14, fontweight='bold')
+ax.grid(which='minor', color='black', linestyle='-', linewidth=1)
+
+plt.tight_layout()
+plt.savefig('matriz_riesgo_omnibank.png')
 
 **Nivel de Riesgo Inherente: 25 (Extremo - Crítico)**
 
