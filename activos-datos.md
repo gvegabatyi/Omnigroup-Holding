@@ -1,4 +1,6 @@
-# Inventario y Caracterización de Activos de Datos
+| Filial | Tipo de Dato | Base Legal | Nivel de Riesgo |
+| :--- | :--- | :--- | :--- |
+| [**OmniSalud**](./omnisalud.md) | Sensibles (Salud) | Consentimiento / Médicos | Crítico |# Inventario y Caracterización de Activos de Datos
 
 En este apartado se categorizan los flujos de información del Holding OmniGroup bajo los estándares de la **Ley 21.719**.
 
