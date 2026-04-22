@@ -35,4 +35,4 @@ Diseño de la segregación de funciones y cadena de responsabilidad proactiva pa
 **Gonzalo Vega Batyi.**
 Abogado. Compliance, Riesgo y Ciberseguridad. Especializado en  IA, Proteccion de datos, Ciberseguridad y Tecnologías Emergentes.
 
-[LinkedIn Profile](www.linkedin.com/in/gvegabatyi) 
+[LinkedIn Profile](https://www.linkedin.com/in/gvegabatyi)
