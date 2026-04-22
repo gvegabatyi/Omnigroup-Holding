@@ -40,4 +40,3 @@ Siguiendo la ISO 31000, la dirección debe optar por **Mitigar** o **Evitar**.
 ### 5. Conclusión de la Fase 2
 
 El análisis bajo ISO 31000 confirma que la estructura actual es incompatible con la seguridad exigida a un Operador de Importancia Vital.
-![Matriz de Riesgo](./matriz_riesgo_omnibank.png)
