@@ -34,5 +34,7 @@ Diseño de la segregación de funciones y cadena de responsabilidad proactiva pa
 ## Sobre el Autor
 **Gonzalo Vega Batyi.**
 Abogado. Compliance, Riesgo y Ciberseguridad. Especializado en  IA, Proteccion de datos, Ciberseguridad y Tecnologías Emergentes.
-
+### 1. [Inventario y Caracterización de Activos](./activos-datos.md)
+### 2. [Plan de Auditoría de Gobernanza](./plan-auditoria.md)
+### 3. [Estructura Organizativa y Modelo de Mando](./estructura-gobernanza.md)
 [LinkedIn Profile](https://www.linkedin.com/in/gvegabatyi)
