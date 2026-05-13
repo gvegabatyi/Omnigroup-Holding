@@ -8,7 +8,7 @@
 ---
 
 ## 1. RESUMEN EJECUTIVO (Executive Dashboard)
-Este reporte detalla los hallazgos técnicos resultantes de la inspección forense automatizada sobre el dataset `omnibank_clientes.csv`. La auditoría se centró en verificar la segregación de activos financieros y el cumplimiento del Secreto Bancario.
+Este reporte detalla los hallazgos técnicos resultantes de la inspección forense automatizada sobre el dataset `omnibank_clientes.csv`. La auditoría se centró en verificar la segregación de activos financieros y el cumplimiento del qSecreto Bancario.
 
 | Métrica de Control | Estado | Observación Técnica |
 | :--- | :--- | :--- |
