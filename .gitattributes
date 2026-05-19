@@ -1,0 +1,11 @@
+# Blindaje de Integridad GRC - Gonzalo Vega Batyi
+# Prevenir mezclas accidentales en datasets de auditoría
+*.csv binary merge=binary
+*.xlsx binary merge=binary
+
+# Tratar reportes finales como entidades inmutables
+*.pdf binary
+*.docx binary
+
+# Asegurar consistencia en documentación técnica
+*.md text eol=lf
