@@ -1,4 +1,3 @@
-$content = @"
 # OmniGroup Holding: Compliance & GRC Lab
 
 Este repositorio documenta la intervención integral de auditoría y cumplimiento normativo realizada sobre el Holding ficticio **OmniGroup**, bajo el marco legal chileno (**Ley 21.719** y **Ley 21.663**).
